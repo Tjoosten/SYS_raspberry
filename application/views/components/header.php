@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>C &amp; C</title>
+    <title>C &amp; C | <?php echo $title; ?></title>
   </head>
   <body>
