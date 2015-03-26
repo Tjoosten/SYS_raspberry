@@ -8,7 +8,7 @@
 
 		public function index() {
 			$data = [
-					'title' => 'C&C Rapsberry Pi';
+					'title' => 'C&C Rapsberry Pi',
 				];
 
 			$this->load->view('');
