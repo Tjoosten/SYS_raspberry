@@ -8,12 +8,12 @@
 
 		public function index() {
 			$data = [
-					'title' => 'C&C Rapsberry Pi',
+					'title' => 'Home',
 				];
 
-			$this->load->view('');
-			$this->load->view('');
-			$this->load->view('');
-			$this->load->view('');
+			$this->load->view('components/header', $data);
+			$this->load->view('components/navbar');
+			$this->load->view('index');
+			$this->load->view('components/footer');
 		}
 	}
